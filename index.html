@@ -1,0 +1,56 @@
+<html lang="pt">
+<head>
+    <title>Escalonador de processos</title>
+    <meta charset="iso-8859-1">
+
+    <script src="jq/jquery-1.8.3.js"                type="text/javascript"> </script>
+    <script src="jq/jquery-ui-1.9.2.custom.min.js"  type="text/javascript"> </script>
+
+    <link	href="jq/jquery-ui-1.9.2.custom.css"    rel="stylesheet" type="text/css" media="all"/>
+    <link	href="src/estilo.css"                   rel="stylesheet" type="text/css" media="all"/>
+
+    <script src="src/main.js"               type="text/javascript"></script>
+    <script src="src/configuracoes.js"      type="text/javascript"></script>
+    
+    <script src="src/processo.js"           type="text/javascript"></script>
+    <script src="src/CPU.js"                type="text/javascript"></script>
+    <script src="src/PC.js"                 type="text/javascript"></script>
+    
+    <script src="src/escal_FCFS.js"      type="text/javascript"></script>
+    <script src="src/escal_SJF.js"       type="text/javascript"></script>
+    <script src="src/escal_Prior.js"     type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="pagina">
+        <header id="cabecalho">
+            <h1>Sistemas Operacionais</h1>
+            <h2>Escalonamento de Processos</h2>
+        </header>
+
+        <div id="abas">
+            <ul>
+                <!-- <li> <a href="#paginaPrincipal"> Início            </a> </li> -->
+                <li> <a href="#aba0">            Configurar        </a> </li>
+                <li> <a href="#aba1">            Relatórios        </a> </li>
+            </ul>
+<!--            <div id="paginaPrincipal">
+                <center><h2>Sobre</h2></center>
+                
+                Este aplicativo foi desenvolvido para auxiliar no aprendizado do escalonamento de processos, permitindo a análize comparativa de quatro políticas de esalonamento, sendo elas First-Come First-Served (FCFS), Shortest Job First (SJF), Fixed-priority pre-emptive (FPP) e Round Robin (RR).
+                
+                As informações sobre cada método incluem o tempo de espera, resposta e turn around de cada processo, assim como o tempo médio para cada método.
+            </div>
+-->
+            <div id="aba0"> </div>
+            <div id="aba1"> </div>
+            <!--<div id="aba2"> </div>-->
+        </div>
+        
+        <footer id="rodape">
+            Luís Ricardo Araujo Dias <br>
+            <i>luis.ric@hotmail.com</i>
+        </footer>
+    </div>
+<body>
+</html>
